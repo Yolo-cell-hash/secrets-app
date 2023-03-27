@@ -1,0 +1,191 @@
+body {
+  background-color: #E4E9FD; 
+   background-image: -webkit-linear-gradient(68deg, #A683E3 60%, #E4E9FD 40%);
+  min-height: 900px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+button {
+  margin: 0 1rem;
+  border-width: 0;
+}
+
+textarea[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #A683E3;
+}
+
+.index-body{
+  z-index: -100;
+}
+
+.intro{
+  text-align: center;
+  margin-top:3rem;
+  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Sacramento', cursive;
+  font-size: 5.5rem;
+}
+
+.jbtron{
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 4rem;
+  /* display: inline; */
+}
+
+.conf_box{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.intro_success{
+  text-align: center;
+  margin-top: 16rem;
+}
+
+.button{
+  text-align: center;
+  padding: 1rem 2rem 1rem 2rem;
+  display:inline-block;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.test{
+  text-align: center;
+}
+
+.confessions{
+  text-align: left;
+  margin-left: 10px;
+}
+
+.buttonHOME{
+  text-align: center;
+  padding: 1rem 2rem 1rem 2rem;
+  margin-left: 45%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.box {
+  max-width: 700px;
+  padding: 1rem;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  text-align: left;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.tp_login{
+  margin-top: 6rem;
+  font-size: 1.5rem;
+}
+
+
+
+
+
+/* MOBILE STYLING */
+
+@media (max-width:1125px){
+
+    body{
+      background-color: #E4E9FD; 
+      background-image: -webkit-linear-gradient(58deg, #A683E3 60%, #E4E9FD 40%);
+     /* height: 200px; */
+     font-size: 2.8rem;
+   }
+    .intro{
+      text-align: center;
+      margin-top:8rem;
+      font-size: 15rem;
+    }
+
+    .conf_box{
+      max-width: 50rem;
+    }
+
+    .conf_uname{
+      height: 10rem;
+      text-align: left;
+    }
+
+    .conf_secret{
+      text-align: left;
+      height: 55rem;
+    }
+
+    .mobile_btn{
+      margin-top: 5rem;
+      width: 27rem;
+      margin-bottom: 12rem;
+      height: 5rem;
+      font-size: 2.5rem;
+    }
+
+    .display-5{
+      font-size: 3.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .buttonHOME{
+      margin-bottom:5rem;
+      width: 24rem;
+      height: 6rem;
+      font-size: 3rem;
+      text-align: center;
+      margin-left: 30%;
+    }
+
+    .confessions_secret{
+      font-size: 3rem;
+    }
+
+    .confessions_uname{
+      font-size: 2.1rem;
+    }
+
+    .intro_success{
+      font-size: 6rem;
+      margin-top: 18rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .button{
+      width: 28rem;
+      height: 6rem;
+      font-size: 2.7rem;
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+      margin-left: 27%;
+    }
+
+    .btm-spc{
+      margin-bottom: 850px;
+    }
+
+    .tp_login{
+      font-size: 1.4rem;
+      margin-top: 0;
+    }
+
+    .login-mb{
+      text-align: center;
+      font-size: 5rem;
+      margin-top: 100px;
+    }
+
+    .btn-login{
+      margin-left: 0;
+    }
+
+
+
+
+}
